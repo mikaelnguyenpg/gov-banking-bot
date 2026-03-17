@@ -15,7 +15,7 @@
 
         pythonVersion = "3.11";
         pythonDeps = [
-          "fastapi"
+          "fastapi[standard]"
           "uvicorn"
           "langchain"
           "langchain-openai"

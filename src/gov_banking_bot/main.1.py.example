@@ -1,0 +1,6 @@
+# main.py
+# run: python -m gov_banking_bot.main
+from gov_banking_bot import hello
+
+if __name__ == "__main__":
+    print(hello())

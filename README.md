@@ -34,6 +34,17 @@
 
 ## Usage
 
+### 0. Prerequisites
+
+```bash
+# Ubuntu
+sudo apt install build-essential
+# MacOS
+xcode-select --install
+# NixOS
+# add gnumake to configuration.nix: `environment.systemPackages = with pkgs; [gnumake ...]`
+```
+
 ### 1. CLI Command để Init Project
 
 ```bash
