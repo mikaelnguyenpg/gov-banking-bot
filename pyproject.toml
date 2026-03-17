@@ -1,0 +1,22 @@
+[project]
+name = "sg-gov-banking-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mikaelnguyenpg", email = "mikaelnguyen.pg@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "deepeval>=3.8.9",
+    "fastapi>=0.135.1",
+    "langchain>=1.2.12",
+    "langchain-openai>=1.1.11",
+    "pypdf>=6.9.0",
+    "python-dotenv>=1.2.2",
+    "uvicorn>=0.42.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.10.10,<0.11.0"]
+build-backend = "uv_build"

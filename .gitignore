@@ -1,0 +1,23 @@
+# --- Python ---
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# --- Nix ---
+.direnv/
+result
+result-*
+
+# --- Environment & Secrets (CỰC KỲ QUAN TRỌNG) ---
+.env
+.env.local
+.env.*.local
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# --- uv ---
+.uv/
