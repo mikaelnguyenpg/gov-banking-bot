@@ -1,5 +1,5 @@
 [project]
-name = "sg-gov-banking-bot"
+name = "gov-banking-bot"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
